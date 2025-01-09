@@ -14,9 +14,9 @@ export default function Home() {
             </h1>
           </div>
         )}
-        
+
         <div className="space-y-8">
-          <Map />
+          <Map /> 
           
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer">
             <h2 className="text-2xl font-semibold mb-4">Featured Areas</h2>
