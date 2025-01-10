@@ -2,27 +2,20 @@ export default function Footer() {
   return (
     <footer className="bg-gray-800 text-white py-8">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div>
-            <h3 className="text-lg font-semibold mb-4">About Us</h3>
-            <p className="text-gray-300">
+        <div className="grid grid-cols-1 md:grid-cols-3 text-right">
+          <div className="mb-8 md:mb-0">
+            <h3 className="text-lg font-semibold mb-4 text-left">About Us</h3>
+            <p className="text-gray-300 text-left">
               Providing detailed area information and mapping services.
             </p>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
-              <li><a href="/" className="text-gray-300 hover:text-white">Home</a></li>
+            <h3 className="text-lg font-semibold mb-4 text-right">Quick Links</h3>
+            <ul className="space-y-3">
+              <li><a href="/" className="text-gray-300 hover:text-white text-right">Home</a></li>
               <li><a href="/details" className="text-gray-300 hover:text-white">Area Details</a></li>
               <li><a href="/signup" className="text-gray-300 hover:text-white">Sign Up</a></li>
             </ul>
-          </div>
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Contact</h3>
-            <p className="text-gray-300">
-              Email: info@example.com<br />
-              Phone: (123) 456-7890
-            </p>
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-700 text-center">
