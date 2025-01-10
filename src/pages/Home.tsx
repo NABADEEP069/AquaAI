@@ -18,8 +18,8 @@ export default function Home() {
         <div className="space-y-8">
           <Map /> 
           
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer">
-            <h2 className="text-2xl font-semibold mb-4">Featured Areas</h2>
+          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xxl transition-shadow duration-500 cursor-pointer">
+            <h2 className="text-3xl font-semibold mb-4">Featured Areas</h2>
             <p className="text-gray-600">
               Explore our featured locations and discover detailed information about each area.
               Click to learn more about demographics, amenities, and local attractions.
