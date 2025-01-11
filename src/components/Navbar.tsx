@@ -20,17 +20,17 @@ export default function Navbar() {
             <Link to="/" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
               Home page
             </Link>
-            <Link to="/details" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
+            <Link to="/details" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 text-right">
               Details of area
             </Link>
             {!user ? (
-              <Link to="/signup" className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
+              <Link to="/signup" className="px-3 py-2 rounded-md text-sm font-small text-gray-700 hover:text-gray-900 hover:bg-gray-50 ">
                 Sign up
               </Link>
             ) : (
               <button
                 onClick={handleSignOut}
-                className="flex items-center px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                className="flex items-center px-3 py-2 rounded-md text-sm font-medium text-gray-200 hover:text-gray-900 hover:bg-gray-50"
               >
                 <LogOut size={16} className="mr-2" />
                 Sign out

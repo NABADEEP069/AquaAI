@@ -3,16 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-"scripts": {
-  "deploy": "npm run build && netlify deploy --prod",
-  "dev": "vite",
-  "build": "vite build",
-  "lint": "eslint .",
-  "preview": "vite preview"
-},
-
+  "scripts": {
+    "deploy": "npm run build && netlify deploy --prod",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.16.2",
+    "@react-google-maps/api": "^2.20.5",
     "@supabase/supabase-js": "^2.39.3",
     "@types/google.maps": "^3.55.3",
     "lucide-react": "^0.344.0",
