@@ -10,7 +10,7 @@ const center = {
   lng: -122.4194, 
 };
 
-export default function Map() {
+export default function Mapp() {
   const apiKey = 'AIzaSyBwmhmDjNgxhkyOWhBMzREOCAbR5RqXAG8'; 
 
   return (

@@ -1,5 +1,5 @@
 import { useAuth } from '../context/AuthContext';
-import Map from '../components/Map';
+import Mapp from '../components/Map';
 
 export default function Home() {
   const { user } = useAuth();
@@ -16,7 +16,7 @@ export default function Home() {
         )}
 
         <div className="space-y-8">
-          <Map /> 
+          <Mapp /> 
           
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xxl transition-shadow duration-500 cursor-pointer">
             <h2 className="text-3xl font-semibold mb-4">Featured Areas</h2>
