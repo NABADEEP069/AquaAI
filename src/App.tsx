@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Details from './pages/Details';
 import Auth from './pages/Auth';
-
+import Profile from './pages/profile';
 function App() {
   return (
     <AuthProvider>
@@ -16,7 +16,8 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/details" element={<Details />} />
-              <Route path="/signup" element={<Auth />} />
+              <Route path="/auth" element={<Auth />} />
+              <Route path="/profile" element={<Profile/>} />
             </Routes>
           </div>
           <Footer />
