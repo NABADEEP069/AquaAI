@@ -11,7 +11,7 @@ export default function Home() {
         {user && (
           <div className="mb-8 bg-white-500 border border-blue-300 rounded-lg p-2">
             <h1 className="text-xl font-semibold text-blue-400">
-             Hey {user.email},   Welcome back !
+             Hey {user.email},   Welcome !
             </h1>
           </div>
         )}
