@@ -6,20 +6,30 @@ import Home from './pages/Home';
 import Details from './pages/Details';
 import Auth from './pages/Auth';
 import Profile from './pages/profile';
-function App() {
+import { TypewriterEffect } from './components/ui/typewriter-effect';
+
+const App: React.FC = () => {
+
+
   return (
     <AuthProvider>
       <Router>
-        <div className="flex flex-col min-h-screen">
+        <div className="flex flex-col min-h-screen ">
           <Navbar />
+          <br />
+          <TypewriterEffect words={[{ text: 'Welcome to Aquafine AI' }]} />
+          <br />
           <div className="flex-grow">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/details" element={<Details />} />
               <Route path="/auth" element={<Auth />} />
               <Route path="/profile" element={<Profile/>} />
+              <Route path="/auth" element={<Auth />} />
+              <Route path="/profile" element={<Profile/>} />
             </Routes>
           </div>
+         
           <Footer />
         </div>
       </Router>
@@ -28,3 +38,5 @@ function App() {
 }
 
 export default App;
+
+
