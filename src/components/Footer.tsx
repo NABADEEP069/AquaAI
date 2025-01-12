@@ -14,11 +14,11 @@ export default function Footer() {
             </p>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-right">Quick Links</h3>
-            <ul className="space-y-3">
-              <li><a href="/" className="text-black-300 hover:text-yellow-400 text-right">Home</a></li>
-              <li><a href="/details" className="text-black-300 hover:text-pink-500">Area Details</a></li>
-              <li><a href="/auth" className="text-black-300 hover:text-green-500">Sign Up</a></li>
+            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <ul className="space-y-2">
+              <li><a href="/" className="text-gray-300 hover:text-black">Home</a></li>
+              <li><a href="/details" className="text-gray-300 hover:text-black">Area Details</a></li>
+              <li><a href="/signup" className="text-gray-300 hover:text-black">Sign Up</a></li>
             </ul>
           </div>
         </div>

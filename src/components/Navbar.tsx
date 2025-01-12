@@ -4,7 +4,7 @@ import { useAuth } from '../context/AuthContext';
 import { supabase } from '../lib/supabase';
 
 export default function Navbar() {
-  const { } = useAuth();
+  const { user } = useAuth();
   const navigate = useNavigate();
 
   const handleSignOut = async () => {
@@ -15,13 +15,9 @@ export default function Navbar() {
   return (
     <nav className="bg-white shadow-lg">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="flex justify-between items-center h-16">
-          {/* Left Side */}
+        <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Link
-              to="/"
-              className="text-xl font-semibold text-gray-700 hover:text-gray-900"
-            >
+            <Link to="/" className="text-2xl font-bold text-black">
               Aquafine AI
             </Link>
           </div>
