@@ -17,23 +17,18 @@ export default function Home() {
           </div>
         )}
 
-        <h1 className="text-1xl hover:to-slate-600 mb-8">  Efficient fish production planning is crucial for meeting market demands and sustaining aquaculture operations. Current methods depend heavily on manual surveys, which are labor-intensive, prone to inaccuracies, and lack the scalability to cover vast or remote water bodies. This leads to suboptimal use of resources and missed opportunities for aquaculture optimization.</h1>
+        <h1 className="text-1xl hover:to-slate-600 mb-8"> AquaFine is an innovative solution designed to revolutionize fish production planning by leveraging cutting-edge technology. Traditional methods of manual surveys are labor-intensive, error-prone, and inadequate for large or remote water bodies. AquaFine addresses these challenges through advanced remote sensing, AI, and data-driven insights to optimize aquaculture operations. By integrating satellite imagery, environmental data, and predictive models, AquaFine provides scalable tools for precise production potential estimation.</h1>
    
 
         <div className="space-y-0">
           <Mapp /> 
           
           <div className="flex items-center justify-center h-[150px]">
-<Link
-  to="/auth"
-  className="relative overflow-hidden group bg-gradient-to-r from-red-400 to-pink-500 text-white px-8 py-4 rounded-lg inline-flex items-center transition-all duration-300 ease-in-out hover:from-red-500 hover:to-pink-600 hover:shadow-lg hover:-translate-y-1"
-  >
-    <span className="relative z-10 font-semibold">
-      Get Started
-    </span>
-    <ArrowRight className="ml-2 h-5 w-5 transition-transform duration-300 ease-in-out group-hover:translate-x-1" />
-    <span className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300 ease-in-out" />
-  </Link>
+<Link to="/auth">
+  <button className="px-9 py-2 rounded-md border border-black bg-white text-black text-sm hover:shadow-[6px_4px_0px_0px_rgba(0,0,0)] transition duration-200">
+    Get Started
+  </button>
+</Link>
 
 
 </div>
@@ -51,3 +46,15 @@ export default function Home() {
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
