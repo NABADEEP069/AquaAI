@@ -7,6 +7,7 @@ import Details from './pages/Details';
 import Auth from './pages/Auth';
 import Profile from './pages/profile';
 import { TypewriterEffect } from './components/ui/typewriter-effect';
+import Result from './pages/Result';
 
 const App: React.FC = () => {
 
@@ -27,6 +28,7 @@ const App: React.FC = () => {
               <Route path="/profile" element={<Profile/>} />
               <Route path="/auth" element={<Auth />} />
               <Route path="/profile" element={<Profile/>} />
+              <Route path="/Result" element={<Result/>} />
             </Routes>
           </div>
          
