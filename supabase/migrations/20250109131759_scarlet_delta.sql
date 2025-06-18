@@ -1,20 +1,4 @@
-/*
-  # Create profiles table and policies
 
-  1. New Tables
-    - `profiles`
-      - `id` (uuid, primary key, references auth.users)
-      - `email` (text)
-      - `created_at` (timestamp)
-      - `updated_at` (timestamp)
-
-  2. Security
-    - Enable RLS on `profiles` table
-    - Add policies for:
-      - Users can read their own profile
-      - Users can update their own profile
-      - Profiles are automatically created on user signup
-*/
 
 -- Create profiles table
 CREATE TABLE IF NOT EXISTS profiles (
